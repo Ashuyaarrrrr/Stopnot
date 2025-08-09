@@ -1,4 +1,3 @@
-// Smooth scroll
 document.querySelectorAll('a[href^="#"]').forEach(link => {
   link.addEventListener("click", function (e) {
     e.preventDefault();
@@ -12,7 +11,6 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
   });
 });
 
-// Scroll reveal
 const sections = document.querySelectorAll("section");
 const reveal = () => {
   const triggerBottom = window.innerHeight * 0.85;
@@ -28,7 +26,6 @@ const reveal = () => {
 window.addEventListener("scroll", reveal);
 window.addEventListener("load", reveal);
 
-// Contact form feedback
 document.getElementById("contactForm").addEventListener("submit", function (e) {
   e.preventDefault();
   alert("Thank you! Your message has been sent.");
