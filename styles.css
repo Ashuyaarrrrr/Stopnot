@@ -75,6 +75,9 @@ nav ul li a:hover {
   font-family: 'Orbitron', sans-serif;
   color: #ff416c;
   text-shadow: 0 0 12px rgba(255, 65, 108, 0.8);
+  align-items: center;
+  justify-content: center;
+  margin: 0;
 }
 
 .hero-content p {
